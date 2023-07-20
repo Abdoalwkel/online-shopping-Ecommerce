@@ -1,0 +1,1782 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+/* font-family: 'Josefin Sans', sans-serif; */
+
+
+/* all sections  */
+
+.shop-home{
+  overflow: hidden;
+}
+
+.our-pro{
+  overflow: hidden;
+}
+
+.card-slides{
+  overflow: hidden;
+}
+
+.client{
+  overflow: hidden;
+}
+
+.NewUpdate{
+  overflow: hidden;
+}
+
+/* all sections  */
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-width: 100%;
+    box-shadow: 0px -34px 47px 1px rgb(0, 0, 0.1);
+}
+.navbar-expand-lg .navbar-nav {
+    margin: auto;
+}
+.navbar-expand-lg .navbar-nav a{
+color: black;
+font-size: 18px;
+margin-right: 30px;
+font-weight: 600;
+transition: .3s all;
+}
+
+.navbar-expand-lg .navbar-nav a:hover{
+
+color: red;
+
+}
+
+.navbar-brand {
+  font-weight: 600;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+margin-left: 3rem;
+}
+.navbar-brand:hover {
+color: black;
+}
+
+.navbar-brand span{
+font-size: 1.5rem;
+color: red;
+text-decoration: underline;
+
+}
+
+
+.navbar .icons-nav{
+    padding: 0 15px;
+    margin-right: 2rem;
+
+}
+
+.navbar .icons-nav i {
+    font-size: 1.6rem;
+    padding: 0 5px;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.navbar .icons-nav i:hover{
+transform: translateY(-3.4PX);
+color: rgb(206, 31, 31);
+}
+/* end navbar */
+
+
+/* start home */
+.shop-home{
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 100vh;
+}
+.home-text{
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    max-width: 36%;
+    min-height: 100vh;
+    justify-content: center;
+    margin-left: 3.8rem;
+    position: relative;
+    bottom: 47px;
+}
+
+.home-text h3 span{
+
+    font-size: 1.6rem;
+color: red;
+text-decoration: underline;
+
+}
+
+.home-text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+font-weight: 600;
+
+}
+
+.home-text h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 100px;
+    padding-top: 18px;
+}
+
+.home-text h1 span{
+ color: red;
+ text-decoration: underline;
+
+}
+
+.home-text p{
+
+    font-size: 19px;
+    font-style: oblique;
+}
+
+.link-shop{
+    position: relative;
+    top: 100px;
+    right: 265px;
+}
+
+.home-text .link-shop .home-link {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 27px;
+    border-radius: 29px;
+    color: black;
+    margin: 0 12px;
+    transition: .5s all;
+}
+.home-text .link-shop .home-link:hover {
+background: black;
+color: white;
+
+}
+
+.all-text{
+    justify-content: space-between;
+}
+
+
+    .wrapper ul {
+    list-style: none;
+  }
+  
+
+  .wrapper ul li {
+    width: 55px;
+    height: 55px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 4px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+    text-align: center;
+  }
+  
+
+  .wrapper ul li .fa {
+    color: #D8E2DC;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+  }
+  
+  .wrapper ul li a{
+    text-decoration: none;
+  }
+
+  .wrapper ul li:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  /*twitter*/
+  .wrapper ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  /* instagram */
+  .wrapper ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+  
+  /* google */
+  .wrapper ul li:hover.google {
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-google {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+  
+  /* whatsapp */
+  .wrapper ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  
+  
+  /* media queries */
+  
+  @media screen and (max-width: 640px){
+    .wrapper {
+        width: 350px;
+    }
+    .wrapper ul li{
+        margin-top: 10px;
+    }
+    .wrapper ul li.google{
+        margin-left: 60px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 340px){
+    .wrapper {
+        width: 150px;
+    }
+    .wrapper ul li{
+        margin:15px;
+    }
+    .wrapper ul li.google{
+        margin-left: 15px;
+    }
+  }
+  
+.home-img{
+    position: relative;
+    left: 62px
+
+}
+  
+  .home-img img{
+    width: 78%;
+    margin: 16px;
+
+  }
+
+/* end home */
+
+/* start our product */
+
+.our-pro{
+    justify-content: center;
+
+}
+
+.our-pro h3{
+    text-align: center;
+    padding: 38px 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+
+}
+
+.our-pro span{
+    color: red;
+    text-decoration: underline;
+
+}
+
+.nxt-ourPro{
+  padding: 0 45px;
+
+}
+
+.card{
+      background: beige;
+    margin-left: 17px;
+    border: none;
+    margin-bottom: 50px;
+
+}
+.nxt-ourPro .img-pro .img{
+  overflow: hidden;
+}
+.nxt-ourPro .img-pro .img img{
+  width: 200px;
+    height: 290px;
+    margin-left: 32px;
+    margin-top: 16px;
+    transform: scale(1.1);
+    transition: .4s all;
+}
+
+.nxt-ourPro .img-pro .card:hover .img img{
+transform: scale(1);
+
+}
+
+.nxt-ourPro .img-pro .img span{
+      color: white;
+    background: #47c147;
+    position: absolute;
+    top: 14px;
+    padding: 0px 11px;
+    left: 15px;
+    font-size: 11px;
+    text-decoration: none;
+}
+.nxt-ourPro .pro-titel{
+  
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding-top: 10px;
+
+}
+.nxt-ourPro .pro-titel .all-littelTxt{
+  margin-left: 11px;
+
+}
+.nxt-ourPro .pro-titel .star i{
+      font-size: 19px;
+    color: #fff90f;
+cursor: pointer;
+}
+.nxt-ourPro .pro-titel .star .last{
+      color: #dad0d0;
+
+}
+.nxt-ourPro .pro-titel p{
+ margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nxt-ourPro .pro-titel .right-ico i{
+      font-size: 28px;
+    margin-right: 11px;
+    color: black;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.nxt-ourPro .pro-titel .right-ico i:hover{
+color: red;
+
+}
+
+/* end our product */
+
+/* start card slide */
+
+.littel-card .img{
+  padding: 0 19px;
+}
+
+.littel-card{
+  transition: .5s all;
+
+}
+
+
+.new-card{
+  padding: 22px 0px;
+  
+  }
+
+.card-slides{
+  background: #fafafa;
+  padding: 48px 0;
+}
+
+.card-slides h3{
+  text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.card-slides h3 span{
+  color: red;
+  text-decoration: underline;
+}
+.card-slides .littel-card{
+  width: 22%;
+  text-align: center;
+  height: 53vh;
+  border: 1px solid gray;
+  margin-left: 25px;
+
+}
+
+.card-slides .littel-card .img img{
+  width: 152px;
+  height: 193px;
+  margin-top: 11px;
+}
+.card-slides .littel-card .text h4{
+  margin: 0;
+  margin-top: 8px;
+  font-size: 24px;
+}
+.card-slides .littel-card .text p{
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-slides .littel-card .text .star i{
+  color: yellow;
+
+}
+.card-slides .littel-card .text .star .last{
+  color: #dad0d0;
+}
+.card-slides .littel-card .text .add{
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  font-size: 11px;
+  padding: 6px 12px;
+  transition: .4s all;
+}
+
+.card-slides .littel-card .text .add:hover{
+color: white;
+background: red;
+
+}
+
+ 
+.wrapper{
+  max-width: 1200px;
+  position: relative;
+}
+.wrapper .carousel{
+display: flex;
+justify-content: space-evenly;
+overflow: hidden;
+scroll-behavior: smooth;
+margin-left: -10px;
+
+}
+
+.carousel .dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+
+}
+
+.carousel .dragging .littel-card{
+pointer-events: none;
+}
+
+
+.wrapper .carousel .littel-card:first-child{
+  margin-left: 0px;
+}
+ 
+
+.wrapper .move{
+height: 46px;
+width: 46px;
+cursor: pointer;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 1.2rem;
+text-align: center;
+line-height: 46px;
+background: #d3d1d1;
+border-radius: 50%;
+
+}
+
+.wrapper .move:first-child{
+  left: -23px;
+display: none;
+z-index: 1;
+}
+
+.wrapper .move:last-child{
+  right: -23px;
+}
+
+/* end card slide */
+
+
+/* start next home */
+
+.next-home{
+padding-top: 55px;
+  background: #b8c7e6;
+padding-bottom: 0;
+}
+.next-home .nex2{
+  justify-content: center;
+
+}
+
+.next-home .nex2 .text h1{
+  font-weight: 600;
+
+}
+.next-home .nex2 .text h1 span{
+  margin-right: 3px;
+  color: red;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.next-home .nex2 .text{
+  max-width: 45%;
+}
+.next-home .nex2 .text p{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.next-home .nex2 .text .iconS{
+  display: flex;
+align-items: center;
+align-items: baseline;
+
+}
+.next-home .nex2 .text .iconS p{
+  margin-left: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.next-home .nex2 .text .iconS i{
+  font-size: 27px;
+  color: red;
+}
+
+
+
+
+
+.next-home .nex2 .img img{
+
+
+width: 589px;
+    height: 524px;
+}
+/* end next home */
+
+
+
+/* start client card */
+
+.client{
+  overflow: hidden;
+}
+.client .Review h1{
+  font-size: 32px;
+  font-weight: 600;
+}
+.client .Review h1 span{
+  color: red;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+}
+
+
+.client .client-review{
+  width: 100%;
+  display: flex;
+  margin-left: 35px;
+  padding: 58px 0px;
+  overflow: hidden;
+}
+
+
+.Review{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 46px 0;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 258px;
+  height: 400px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card .flip-card-front h4 {
+  position: absolute;
+  bottom: -8px;
+  font-size: 24px;
+  color: white;
+  background: #0000005e;
+  padding: 19px 57px;
+  left: 1px;
+  border-radius: 0 0 13px 11px;
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+background-image: url(img/IMG-20221105-WA0061.jpg);
+background-size: cover;
+
+}
+
+.flip-card-back p{
+font-size: 1.2rem;
+
+}
+.flip-card-back .star i{
+
+  font-size: 1.7rem;
+color: yellow;
+}
+
+
+.flip-card-back {
+background: #1b1b59;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* end client card */
+
+
+/* start new update*/
+
+.NewUpdate .update{
+  padding: 1px 23px;
+  margin-left: 25px;
+
+}
+.NewUpdate .update .big-card{
+  margin-bottom: 33px;
+  margin-top: 7px;
+}
+.NewUpdate h1{
+  font-family: 'Josefin Sans', sans-serif;
+font-weight: 600;
+  text-align: center;
+  padding: 13px 0;
+  font-size: 28px;
+}
+.NewUpdate h1 span{
+  color: red;
+  font-weight: 600;
+  font-size: 34px;
+  text-decoration: underline
+}
+
+.NewUpdate .update{
+  padding: 0 10px;
+
+}
+
+.NewUpdate .update .card-larg .img img{
+  width: 88%;
+  height: 35vh;
+  border-radius: 11px 11px 0 0px;
+}
+.NewUpdate .update .card-larg .text{
+  max-width: 88%;
+  padding: 11px 6px;
+
+}
+.NewUpdate .update .card-larg .text .p1{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: red;
+}
+.NewUpdate .update .card-larg .text .p2{
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+  margin: 0;
+  margin-bottom: 9px;
+
+}
+.NewUpdate .update .card-larg .text .p3{
+  color: #0606b6;
+  margin-top: 6px;
+  text-decoration: none;
+}
+.NewUpdate .update .card-larg .text h4{
+  font-size: 19px;
+margin-top: 5px;
+}
+
+
+
+/* end new update*/
+
+/* start get order */
+
+.order-now{
+  background: #ffeafe;
+
+}
+.order-now h1 span{
+  font-weight: 700;
+  color: red;
+  text-decoration: underline;
+}
+.order-now h1{
+  font-weight: 700;
+text-align: center;
+padding: 34px 0px;
+
+}
+
+.order-now .all-form{
+  border: 2px solid #d52b2b;
+  border-radius: 12px;
+  padding: 97px 0px;
+}
+
+.order-now .all-form .shirt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-now .all-form .shirt .img img{
+  width: 366px;
+
+}
+
+.input input{
+  border: none;
+  border-bottom: 3px solid red;
+  font-size: 19px;
+  padding: 6px 0px;
+  outline: none;
+  background: #ffeafe;
+
+  position: relative;
+  width: 15rem;
+  margin-right: 56px;
+  margin-bottom: 11px;
+}
+
+.input .inputs i{
+  font-size: 22px;
+  margin-right: 10px;
+  padding: 9px 0px;
+
+}
+
+.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input .inputs .one{
+  display: flex;
+  align-items: center;
+}
+
+.input .inputs .too{
+  display: flex;
+  align-items: center;
+}
+
+.input .inputs .three{
+  display: flex;
+  align-items: center;
+}
+
+.input .inputs .adress i{
+  margin: 0;
+  font-size: 29px;
+
+}
+
+.input .inputs textarea{
+margin-top: 15px;
+  border: none;
+  resize: none;
+  border-bottom: 2px solid red;
+  background: #ffeafe;
+margin-right: 10px;
+  outline: none;
+}
+
+.all-form .adress{
+  width: 104%;
+
+}
+
+.input .link-send{
+  text-align: center;
+  position: relative;
+  top: 47px;
+  left: -7px;
+}
+.input .link-send a{
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  padding: 6px 32px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 36px;
+  transition: .4s all;
+}
+.input .link-send a:hover{
+  background: red;
+  color: #fff;
+}
+
+/* end get order */
+
+/* start footer */
+footer{
+  padding: 65px 0px;
+  background: #ffeafe;
+}
+footer .container{
+  border: 2px solid red;
+  padding: 27px 23px;
+  border-radius: 15px;
+}
+
+footer .Footer .footer-links p{
+
+  margin-top: 38px;
+  font-size: 17px;
+  color: gray;
+}
+
+
+
+footer .Footer .footer-links h1{
+
+  font-size: 21px;
+  margin-left: 28px;
+  margin-bottom: 23px;
+}
+
+
+
+
+footer .Footer .footer-links li{
+
+  list-style: none;
+  padding: 8px 0px;
+}
+
+footer .Footer .footer-links a{
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  transition: .5s all;
+  
+}
+
+
+
+footer .Footer .footer-links a:hover{
+
+color: red;
+padding-left: 6px;
+}
+
+
+/* end footer */
+
+.shop-home .social-icon{
+  width: 192%;
+
+}
+
+main{
+  max-width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 1011px) and (max-width: 1400px){
+
+
+  .input input {
+    border: none;
+    border-bottom: 3px solid red;
+    font-size: 16px;
+    padding: 6px 0px;
+    outline: none;
+    background: #ffeafe;
+    position: relative;
+    width: 12rem;
+    margin-right: 28px;
+    margin-bottom: 11px;
+}
+.col-lg-3 {
+  flex: 0 0 auto;
+  width: 31%;
+  margin-bottom: 25px;
+
+}
+.card-slides .littel-card {
+  width: 22%;
+  text-align: center;
+  height: 62vh;
+  border: 1px solid gray;
+  margin-left: 25px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 1010px) {
+.carousel .littel-card{
+  width: calc(100% / 2);
+}
+
+
+.next-home .nex2 .text {
+  width: 405px;
+}
+
+
+
+
+
+.next-home {
+
+  width: 100%;
+  overflow: hidden;
+}
+
+.next-home .nex2 .img img {
+  width: 557px;
+  height: 453px;
+}
+
+.card-slides {
+  width: 100%;
+  overflow: hidden;
+}
+
+.nxt-ourPro {
+  width: 108%;
+}
+
+.shop-home {
+  overflow: hidden;
+  max-width: 100%;
+  min-height: 100vh;
+  width: 135%;
+}
+
+
+
+
+.wrapper ul li {
+  width: 50px;
+  height: 50px;
+}
+
+
+.home-text h1 {
+  font-size: 3rem;
+
+}
+
+header {
+  min-width: 100%;
+}
+
+
+.navbar-expand-lg .navbar-nav {
+  margin: auto;
+  text-align: center;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow:none;
+  cursor: pointer;
+}
+
+.navbar .icons-nav {
+
+  text-align: center;
+}
+
+.client .client-review {
+    justify-content: center;
+}
+
+.flip-card-inner {
+  margin-top: 28px;
+}
+
+
+.NewUpdate {
+  text-align: center;
+}
+
+
+
+.inputs {
+    margin-top: 39px;
+    justify-content: end;
+}
+
+.order-now {
+  background: #ffeafe;
+  width: 100%;
+}
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 47%;
+}
+
+}
+
+
+@media screen and (max-width: 933px){
+  .home-img img {
+    height: 81vh;
+    width: 85%;
+    margin: 16px;
+    position: absolute;
+    right: 42px;
+  }
+  .home-text h1 {
+    font-size: 2.4rem;
+}
+
+  .home-text .link-shop .home-link {
+    position: absolute;
+    left: 52px;
+    top: 69px;
+}
+
+.home-text {
+  min-height: 112vh;
+}
+
+
+.shop-home {
+  padding-top: 73px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 833px){
+.next-home .nex2 .img img {
+  width: 428px;
+  height: 397px;
+}
+.home-text h1 {
+  font-size: 2.4rem;
+}
+
+}
+
+@media screen and (max-width: 767px){
+
+  .input input {
+    font-size: 15px;
+    width: 11rem;
+    margin-right: 57px;
+    margin-bottom: 13px;
+}
+.inputs {
+
+  text-align: center;
+  position: relative;
+  left: 32px;
+}
+
+
+.input .inputs textarea {
+
+  margin-right: 50px;
+  width: 12rem;
+}
+
+.link-shop {
+  position: relative;
+  top: 19px;
+}
+.home-text h1 {
+  font-size: 2rem;
+}
+.wrapper ul li {
+  width: 43px;
+  height: 43px;
+}
+.wrapper ul li .fa {
+
+  font-size: 23px;
+}
+.home-text .link-shop .home-link {
+  font-size: 13px;
+}
+.home-img img {
+  height: 81vh;
+  width: 85%;
+  margin: 16px;
+  position: absolute;
+  right: 42px;
+}
+}
+@media screen and (max-width: 641px){
+  .home-text h3 span {
+    font-size: 21px;
+}
+
+.home-text h1 {
+  font-size: 28px;
+  line-height: 58px;
+}
+.home-text p {
+  font-size: 16px;
+}
+.shop-home .social-icon {
+  width: 173%;
+  position: relative;
+  right: 75px;
+}
+.wrapper ul {
+  list-style: none;
+  width: 19rem;
+
+  margin-left: 39px;
+}
+.wrapper ul li {
+  width: 37px;
+  height: 37px;
+}
+.wrapper ul li .fa {
+  font-size: 19px;
+}
+.link-shop {
+  position: relative;
+  top: 65px;
+  left: 37px;
+}
+
+.wrapper {
+  position: relative;
+  width: 94%;
+  left: 11px;
+}
+.card-slides .littel-card {
+
+  height: 65vh;
+
+}
+
+.next-home .nex2 .img img {
+  width: 357px;
+  height: 480px;
+}
+.next-home .nex2 .text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+.client .client-review {
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 598px){
+  .next-home .nex2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.next-home .nex2 .img img {
+  width: 324px;
+  height: 399px;
+  position: relative;
+  right: 65px;
+}
+
+  header {
+    min-width: 102%;
+}
+
+.nxt-ourPro .img-pro .img img {
+  width: 170px;
+  height: 244px;
+  margin-left: -5px;
+
+ }
+
+
+
+
+
+} 
+
+@media screen and (max-width: 576px){
+
+  .all-text {
+    justify-content: center;
+}
+
+.wrapper {
+  position: relative;
+  width: 84%;
+  left: 32px;
+}
+.next-home {
+  width: 103%;
+  overflow: hidden;
+}
+.next-home .nex2 .img img {
+  width: 306px;
+  height: 427px;
+}
+.client-card{
+  
+  display: flex;
+  justify-content: center;
+  padding: 39px 0px;
+
+}
+.flip-card-front, .flip-card-back {
+  width: 132%;
+  height: 113%;
+  right: -37px;
+margin-bottom: 30px;
+}
+.flip-card .flip-card-front h4 {
+  padding: 31px 66px;
+}
+
+.all-order{
+  width: 92%;
+
+}
+.order-now {
+  padding: 0 29px;
+}
+
+.all-form.input{
+  margin-left: 10px;
+
+}
+footer .container {
+  border: 2px solid red;
+  border-radius: 15px;
+  text-align: center;
+}
+
+footer {
+  padding: 65px 49px;
+  background: #ffeafe;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 550px) {
+  .carousel .littel-card{
+    width: 100%;
+  }
+  .fa-solid, .fas {
+    font-weight: 900;
+    margin-right: 76px;
+}
+  .inputs {
+    text-align: center;
+    position: relative;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
+  font-size: 16px;
+  width: 21rem;
+  margin-bottom: 13px;
+}
+.input .inputs textarea {
+  margin-right: 100px;
+  width: 20rem;
+}
+
+.NewUpdate .update {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-larg{
+  width: 229%;
+
+}
+.order-now {
+  background: #ffeafe;
+  width: 106%;
+}
+
+footer {
+
+  width: 106%;
+}
+
+header {
+  min-width: 105%;
+}
+.nxt-ourPro {
+  width: 108%;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+
+  width: 200%;
+}
+.nxt-ourPro .img-pro .img img {
+  width: 315px;
+  height: 227px;
+  margin-left: 48px;
+}
+.shop-home {
+  padding-top: 73px;
+  display: flex;
+  flex-direction: column;
+  height: 210vh;
+  text-align: center;
+  align-items: end;
+}
+.all-text {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right: 70px; */
+}
+.home-text {
+  min-height: 112vh;
+  width: 100%;
+  position: relative;
+  right: 35px;
+}
+.home-text h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.home-text h3 span {
+  font-size: 26px;
+}
+.home-text h1 {
+  font-size: 40px;
+  line-height: 58px;
+  width: 124%;
+}
+.home-text p {
+  font-size: 19px;
+  MARGIN-LEFT: 15px;
+  width: 110%;
+}
+.wrapper {
+  position: relative;
+  width: 84%;
+  left: 44px;
+}
+.wrapper ul {
+  list-style: none;
+  width: 45rem;
+  margin-left: 92px;
+}
+.wrapper ul li.google {
+  margin-left: 10px;
+}
+.link-shop {
+  position: relative;
+  top: 22px;
+  left: 58px;
+}
+.fa-solid, .fas {
+  font-weight: 900;
+  margin-right: 30px;
+}
+.order-now .all-form {
+  margin-left: 11px;
+}
+.social-icon .wrapper{
+
+    position: relative;
+    width: 84%;
+    left: -75px;
+}
+  }
+  @media screen and (max-width: 494px){
+
+
+    .home-img img {
+      height: 84vh;
+      width: 120%;
+      margin: 16px;
+      position: absolute;
+      right: -28px;
+  }
+  header {
+    min-width: 116%;
+}
+.card-slides {
+  width: 110%;
+  overflow: hidden;
+}
+.next-home {
+  width: 122%;
+  overflow: hidden;
+}
+.client{
+  width: 113%;
+
+}
+.NewUpdate {
+  text-align: center;
+  width: 109%;
+}
+.order-now {
+  background: #ffeafe;
+  width: 117%;
+}
+footer {
+  width: 118%;
+}
+.card {
+  width: 200%;
+  margin-left: 57px;
+}
+
+.our-pro h3 {
+  margin-left: 61px;
+}
+
+  }
+
+
+
+
+  @media screen and (max-width: 444px){
+  .nxt-ourPro .img-pro .img img {
+    width: 227px;
+    height: 181px;
+    margin-left: 26px;
+}
+.fa-solid, .fas {
+  font-weight: 900;
+  margin-right: 76px;
+}
+
+.next-home .nex2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.next-home .nex2 .img img {
+width: 324px;
+height: 399px;
+position: relative;
+right: 65px;
+}
+
+
+
+
+
+
+  }
+
+
+  @media screen and (max-width: 418px){
+    header {
+      min-width: 123%;
+  }
+
+  .card-slides {
+    width: 119%;
+    overflow: hidden;
+}
+
+
+footer {
+  width: 129%;
+}
+
+
+.order-now {
+  background: #ffeafe;
+  width: 127%;
+}
+
+.input input {
+  font-size: 15px;
+  width: 18rem;
+  margin-bottom: 13px;
+}
+.input .inputs textarea {
+  margin-right: 100px;
+  width: 14rem;
+}
+.next-home {
+  width: 131%;
+  overflow: hidden;
+}
+
+.card-slides {
+  width: 127%;
+  overflow: hidden;
+}
+.shop-home {
+  padding-top: 73px;
+  display: flex;
+  flex-direction: column;
+  height: 210vh;
+  text-align: center;
+  align-items: end;
+  width: 98vh;
+  position: relative;
+  left: 40px;
+}
+.home-text {
+  min-height: 112vh;
+  width: 100%;
+  position: relative;
+  right: 61px;
+}
+.home-text h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 29px;
+  font-weight: 600;
+}
+.home-text h3 span {
+  font-size: 22px;
+}
+.shop-home .social-icon {
+  width: 173%;
+  position: relative;
+  right: 103px;
+}
+.home-text .link-shop .home-link {
+  font-size: 11px;
+}
+.home-img img {
+  height: 60vh;
+  width: 120%;
+  margin: 44px;
+  position: absolute;
+  right: -28px;
+}
+.nxt-ourPro .img-pro .img img {
+  width: 181px;
+  height: 148px;
+  margin-left: 21px;
+}
+
+
+.all-text {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 70px;
+}
+.fa-solid, .fas {
+  font-weight: 900;
+  margin-right: 76px;
+}
+.img-pro{
+  position: relative;
+  right: 36px;
+}
+.wrapper {
+  position: relative;
+  width: 63%;
+  /* height: 57vh; */
+  left: 44px;
+}
+.next-home .nex2 .text {
+  width: 405px;
+  margin-right: 107px;
+}
+.client-card {
+  display: flex;
+  justify-content: center;
+  padding: 39px 0px;
+  margin-right: 60px;
+}
+.NewUpdate .update {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.order-now .all-form .shirt .img img {
+  width: 293px;
+}
+.order-now .all-form {
+  border: 2px solid #d52b2b;
+  border-radius: 12px;
+  padding: 52px 0px;
+  width: 83%;
+  position: relative;
+  right: 28px;
+  padding-bottom: 85px;
+}
+footer .container {
+  border: 2px solid red;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+  position: relative;
+  right: 58px;
+}
+.input input {
+  font-size: 15px;
+  width: 15rem;
+  margin-bottom: 13px;
+}
+.input .inputs textarea {
+  margin-right: 100px;
+  width: 12rem;
+}
+.card-slides h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 81px;
+}
+.client .client-review {
+  padding: 0;
+}
+.client .Review h1 span {
+  margin-right: 47px;
+}
+
+
+.flip-card-front, .flip-card-back {
+  width: 122%;
+  height: 102%;
+  right: -21px;
+  margin-bottom: 30px;
+}
+  }
+
+
+
+
+  
